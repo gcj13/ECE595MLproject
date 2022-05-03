@@ -12,8 +12,8 @@ generate adversarial examples with eps as perturbation
 ```
 ensemble_prediction(model1,model2,model3,test_data,mode)
 ```
-with mode ensemble, it returns the accuracy of prediction combination
-with mode separate, it returns the accuracy of models without defend
+with mode ensemble, it returns the accuracy of prediction combination; 
+with mode separate, it returns the accuracy of models without defend; 
 with mode ens_vote, it returns the accuracy of majority voting
 ## train.py: 
 train three models (resnet50, mobilenetv2, efficientnetb0) with cifar10, generate training loss graph, generate runtime accuracy graph and save model
